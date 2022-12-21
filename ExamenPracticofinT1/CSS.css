@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('Fondo.gif');
+    background-image: url('./Fondo.gif');
     background-position: center;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     height: 100vh;
     width: 36vw;
-    background-image: url('Portada.webp');
+    background-image: url('./Portada.webp');
     background-size: contain;
     position: absolute;
     
