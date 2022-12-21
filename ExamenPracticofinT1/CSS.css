@@ -79,7 +79,14 @@ body {
 
 @media screen and (orientation: landscape) {
     body {
+      margin: 0 auto;
       width: 75vh;
+      height: 100vh;
+    }
+
+    .contenedor {
+      margin: 0 auto;
+      width: 100vw;
       height: 100vh;
     }
   }
