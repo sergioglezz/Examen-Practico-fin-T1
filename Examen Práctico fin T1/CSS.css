@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Fondo.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor {
+    margin: 0 auto;
+    height: 100vh;
+    width: 36vw;
+    overflow: hidden;
+}
+
+.main {
+    margin: 0 auto;
+    height: 100vh;
+    width: 36vw;
+    background-image: url('Portada.webp');
+    background-size: contain;
+    position: absolute;
+    
+}
+
+.main2 {
+    background-image: url('Felicidades.webp');
+    margin: 0 auto;
+    height: 100vh;
+    width: 36vw;
+    background-size: contain;
+    position: absolute;
+}
+
+.main:hover {
+    transition: all 2s;
+    opacity: 0;
+}
+
+
+.main h1{
+    color: red;
+    -webkit-text-stroke: 2px white;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.main2 h1{
+    font-size: 10vh;
+    -webkit-text-stroke: 2px white;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    padding-top: 70vh;
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    0% {
+      color: red;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color: yellow;
+    }
+    100% {
+      color: purple;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+      width: 75vh;
+      height: 100vh;
+    }
+  }
