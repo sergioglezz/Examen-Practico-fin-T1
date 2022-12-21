@@ -28,7 +28,7 @@ body {
 }
 
 .main2 {
-    background-image: url('Felicidades.webp');
+    background-image: url('./Felicidades.webp');
     margin: 0 auto;
     height: 100vh;
     width: 36vw;
